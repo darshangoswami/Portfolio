@@ -39,7 +39,7 @@ function App() {
           </Button>
         </div>
       </nav>
-      <div className="mt-52 mb-36">
+      <div className="h-screen flex flex-col justify-center">
         <h1 className="text-4xl md:text-6xl text-gray-800 font-medium">
           Hi, I'm Darshan! <span className="text-3xl">👋</span>
         </h1>
