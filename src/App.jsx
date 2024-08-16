@@ -58,7 +58,8 @@ function App() {
         <h3 className="text-2xl underline mb-3">Projects:</h3>
         <div className="flex flex-wrap md:flex-nowrap gap-5 mb-10">
           <a
-            href=""
+            href="https://shufflefy.darshangoswami.com/"
+            target="_blank"
             className="hover:scale-105 transition-all w-full md:w-auto"
           >
             <Card className="shadow-inner">
@@ -77,7 +78,8 @@ function App() {
           </a>
 
           <a
-            href=""
+            href="https://covid-tracker.darshangoswami.com/"
+            target="_blank"
             className="hover:scale-105 transition-all w-full md:w-auto"
           >
             <Card className="shadow-inner">
