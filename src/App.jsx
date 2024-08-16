@@ -48,12 +48,12 @@ function App() {
             I'm a <span className="text-gray-800">Software Engineer</span>, and
             I like to solve problems.
           </h2>
-          <a
-            className="flex md:justify-end lg:mr-52 mt-20 text-2xl underline"
-            href="mailto:goswamd@purdue.edu"
+          <Button
+            asChild
+            className="md:self-end lg:mr-52 mt-20 py-6 text-lg w-fit rounded-xl"
           >
-            Let's work together!
-          </a>
+            <a href="mailto:goswamd@purdue.edu">Let's work together!</a>
+          </Button>
         </div>
         <h3 className="text-2xl underline mb-3">Projects:</h3>
         <div className="flex flex-wrap md:flex-nowrap gap-5 mb-10">
