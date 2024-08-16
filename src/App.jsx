@@ -14,7 +14,7 @@ import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
 function App() {
   return (
     <div>
-      <nav className="flex flex-wrap md:flex-nowrap md:justify-between py-5 sticky top-0">
+      <nav className="flex flex-wrap md:flex-nowrap md:justify-between pt-5 mb-5 px-10 md:px-20 sticky top-0 bg-white">
         <Button variant="link" className="text-2xl">
           Darshan.
         </Button>
