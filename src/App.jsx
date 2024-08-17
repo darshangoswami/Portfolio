@@ -44,7 +44,7 @@ function App() {
           <h1 className="text-4xl md:text-6xl text-gray-800 font-medium mt-[-5rem]">
             Hi, I'm Darshan! <span className="text-3xl">👋</span>
           </h1>
-          <h2 className="text-2xl text-gray-400 md:text-3xl mt-2">
+          <h2 className="text-2xl text-gray-400 md:text-3xl mt-3">
             I'm a <span className="text-gray-800">Software Engineer</span>, and
             I like to solve problems.
           </h2>
