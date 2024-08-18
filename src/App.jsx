@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import shufflefy_screenshot from "./assets/shufflefy_screenshot.jpeg";
 import covid_tracker_screenshot from "./assets/covid-19-tracker_screenshot.jpeg";
+import memoji from "./assets/memoji.png";
 import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
 
 function App() {
@@ -40,18 +41,18 @@ function App() {
         </div>
       </nav>
       <main className="px-5 md:px-20 lg:px-36">
-        <div className="h-screen flex flex-col justify-center">
-          <h1 className="text-4xl md:text-6xl text-gray-800 font-medium mt-[-5rem]">
+        <div className="h-screen flex flex-col">
+          <div className="w-52 md:w-60 self-center my-3 md:pt-20 md:self-end md:mr-[-3rem] lg:mr-0">
+            <img src={memoji} alt="" />
+          </div>
+          <h1 className="text-4xl md:text-6xl text-gray-800 font-medium md:mt-[-7rem]">
             Hi, I'm Darshan! <span className="text-3xl">👋</span>
           </h1>
           <h2 className="text-2xl text-gray-400 md:text-3xl mt-3">
             I'm a <span className="text-gray-800">Software Engineer</span>, and
             I like to solve problems.
           </h2>
-          <Button
-            asChild
-            className="md:self-end mt-20 py-6 text-lg w-fit rounded-xl"
-          >
+          <Button asChild className="mt-20 py-6 text-lg w-fit rounded-xl">
             <a href="mailto:goswamd@purdue.edu">Let's work together!</a>
           </Button>
         </div>
