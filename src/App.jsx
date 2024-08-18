@@ -42,11 +42,11 @@ function App() {
       </nav>
       <main className="px-5 md:px-20 lg:px-36">
         <div className="h-screen flex flex-col">
-          <div className="w-52 md:w-60 self-center my-3 md:pt-20 md:self-end md:mr-[-3rem] lg:mr-0">
+          <div className="w-44 md:w-60 self-center my-10 md:my-3 md:pt-20 md:self-end md:mr-[-3rem] lg:mr-0">
             <img src={memoji} alt="" />
           </div>
-          <h1 className="text-4xl md:text-6xl text-gray-800 font-medium md:mt-[-7rem]">
-            Hi, I'm Darshan! <span className="text-3xl">👋</span>
+          <h1 className="text-4xl md:text-6xl text-gray-800 font-medium md:mt-[-9.5rem]">
+            Hi, I'm Darshan!
           </h1>
           <h2 className="text-2xl text-gray-400 md:text-3xl mt-3">
             I'm a <span className="text-gray-800">Software Engineer</span>, and
