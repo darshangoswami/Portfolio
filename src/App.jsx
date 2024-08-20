@@ -1,14 +1,5 @@
 import "./App.css";
 import { Button } from "./components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import shufflefy_screenshot from "./assets/shufflefy_screenshot.jpeg";
-import covid_tracker_screenshot from "./assets/covid-19-tracker_screenshot.jpeg";
 import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
 
 function App() {
@@ -55,48 +46,24 @@ function App() {
             <a href="mailto:goswamd@purdue.edu">Let's work together!</a>
           </Button>
         </div>
-        <h3 className="text-2xl mb-3">Projects:</h3>
-        <div className="flex flex-wrap md:flex-nowrap gap-5 mb-10">
+        <h3 className="text-2xl mb-5">Featured Projects:</h3>
+        <div className="flex flex-wrap md:flex-nowrap gap-5 mb-24">
           <a
             href="https://shufflefy.darshangoswami.com/"
             target="_blank"
-            className="hover:scale-105 transition-all w-full md:w-auto"
+            className="w-full md:w-1/2 h-80 lg:h-[25rem]"
           >
-            <Card className="shadow-inner">
-              <CardHeader className="pb-3">
-                <CardTitle>Shufflefy</CardTitle>
-                <CardDescription>A better shuffle for Spotify.</CardDescription>
-              </CardHeader>
-              <CardContent className="w-full md:w-96 h-60 p-2">
-                <img
-                  className="m-auto max-h-full rounded-sm"
-                  src={shufflefy_screenshot}
-                  alt=""
-                />
-              </CardContent>
-            </Card>
+            <div className="bg-[url('./assets/shufflefy_screenshot.jpeg')] bg-cover bg-top h-full rounded-2xl"></div>
+            <p className="text-xl mt-2 text-gray-500">Shufflefy</p>
           </a>
 
           <a
             href="https://covid-tracker.darshangoswami.com/"
             target="_blank"
-            className="hover:scale-105 transition-all w-full md:w-auto"
+            className="w-full md:w-1/2 h-80 lg:h-[25rem] mt-10 md:mt-0"
           >
-            <Card className="shadow-inner">
-              <CardHeader className="pb-3">
-                <CardTitle>Covid-19 Tracker</CardTitle>
-                <CardDescription>
-                  A covid-19 statistics dashboard.
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="w-full md:w-96 h-60 p-2">
-                <img
-                  className="m-auto max-h-full rounded-sm"
-                  src={covid_tracker_screenshot}
-                  alt=""
-                />
-              </CardContent>
-            </Card>
+            <div className="bg-[url('./assets/covid-19-tracker_screenshot.jpeg')] bg-cover bg-left h-full rounded-2xl"></div>
+            <p className="text-xl mt-2 text-gray-500">Covid-19 Tracker</p>
           </a>
         </div>
       </main>
