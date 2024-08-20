@@ -53,7 +53,7 @@ function App() {
             target="_blank"
             className="w-full md:w-1/2 h-80 lg:h-[25rem]"
           >
-            <div className="bg-[url('./assets/shufflefy_screenshot.jpeg')] bg-cover bg-top h-full rounded-2xl"></div>
+            <div className="bg-[url('./assets/shufflefy_screenshot.jpeg')] bg-scale-sm bg-left-top h-full rounded-2xl"></div>
             <p className="text-xl mt-2 text-gray-500">Shufflefy</p>
           </a>
 
@@ -62,7 +62,7 @@ function App() {
             target="_blank"
             className="w-full md:w-1/2 h-80 lg:h-[25rem] mt-10 md:mt-0"
           >
-            <div className="bg-[url('./assets/covid-19-tracker_screenshot.jpeg')] bg-cover bg-left h-full rounded-2xl"></div>
+            <div className="bg-[url('./assets/covid-19-tracker_screenshot.jpeg')] bg-scale bg-left h-full rounded-2xl"></div>
             <p className="text-xl mt-2 text-gray-500">Covid-19 Tracker</p>
           </a>
         </div>
