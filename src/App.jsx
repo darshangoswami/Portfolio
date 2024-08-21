@@ -41,18 +41,18 @@ function App() {
         </div>
       </nav>
       <main className="px-5 md:px-20 lg:px-36">
-        <div className="h-screen flex flex-col">
-          <div className="w-44 md:w-60 self-center my-10 md:my-3 md:pt-20 md:self-end md:mr-[-3rem] lg:mr-0">
+        <div className="mb-40 flex flex-col">
+          <div className="w-44 self-center my-10 md:pt-20 md:self-end md:mr-[-3rem] lg:mr-0">
             <img src={memoji} alt="" />
           </div>
-          <h1 className="text-4xl md:text-6xl text-gray-800 font-medium md:mt-[-9.5rem]">
+          <h1 className="text-4xl lg:text-6xl text-gray-800 font-medium md:mt-[-9.5rem]">
             Hi, I'm Darshan!
           </h1>
-          <h2 className="text-2xl text-gray-400 md:text-3xl mt-3">
+          <h2 className="text-2xl text-gray-400 lg:text-3xl mt-3 flex-wrap">
             I'm a <span className="text-gray-800">Software Engineer</span>, and
             I like to solve problems.
           </h2>
-          <Button asChild className="mt-20 py-6 text-lg w-fit rounded-xl">
+          <Button asChild className="mt-16 py-6 text-lg w-fit rounded-xl">
             <a href="mailto:goswamd@purdue.edu">Let's work together!</a>
           </Button>
         </div>
