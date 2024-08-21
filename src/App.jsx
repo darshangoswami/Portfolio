@@ -47,7 +47,7 @@ function App() {
             <a href="mailto:goswamd@purdue.edu">Let's work together!</a>
           </Button>
         </div>
-        <h3 className="text-2xl mb-5">Featured Projects</h3>
+        <h3 className="text-2xl mb-10">Featured Projects</h3>
         <div className="flex flex-wrap md:flex-nowrap gap-10 mb-24">
           <a
             href="https://shufflefy.darshangoswami.com/"
@@ -57,7 +57,7 @@ function App() {
             <div className="bg-[url('./assets/shufflefy_screenshot.jpeg')] flex items-end group bg-scale-sm bg-left-top h-full rounded-2xl">
               <AnimatedArrow />
             </div>
-            <p className="text-xl mt-2 text-gray-500">Shufflefy</p>
+            <p className="text-xl mt-2 text-gray-600">Shufflefy</p>
           </a>
 
           <a
@@ -68,7 +68,7 @@ function App() {
             <div className="bg-[url('./assets/covid-19-tracker_screenshot.jpeg')] flex items-end group bg-scale bg-left-top h-full rounded-2xl">
               <AnimatedArrow />
             </div>
-            <p className="text-xl mt-2 text-gray-500">Covid-19 Tracker</p>
+            <p className="text-xl mt-2 text-gray-600">Covid-19 Tracker</p>
           </a>
         </div>
       </main>
