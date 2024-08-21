@@ -3,6 +3,7 @@ import { Button } from "./components/ui/button";
 import memoji from "./assets/memoji.png";
 import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
 import AnimatedArrow from "./components/AnimatedArrow";
+import { Separator } from "@/components/ui/separator";
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
         </div>
       </nav>
       <main className="px-5 md:px-20 lg:px-36">
-        <div className="mb-40 flex flex-col">
+        <div className="mb-36 flex flex-col">
           <div className="w-44 self-center my-10 md:pt-20 md:self-end md:mr-[-3rem] lg:mr-0">
             <img src={memoji} alt="" />
           </div>
@@ -48,6 +49,7 @@ function App() {
             <a href="mailto:goswamd@purdue.edu">Let's work together!</a>
           </Button>
         </div>
+        <Separator className="mb-14" />
         <h3 className="text-3xl mb-10">Featured Projects</h3>
         <div className="flex flex-wrap md:flex-nowrap gap-12 mb-24">
           <a
