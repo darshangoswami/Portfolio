@@ -1,6 +1,7 @@
 import "./App.css";
 import { Button } from "./components/ui/button";
 import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
+import AnimatedArrow from "./components/AnimatedArrow";
 
 function App() {
   return (
@@ -53,7 +54,9 @@ function App() {
             target="_blank"
             className="w-full md:w-1/2 h-64 md:h-[inherit] md:aspect-[4/3]"
           >
-            <div className="bg-[url('./assets/shufflefy_screenshot.jpeg')] bg-scale-sm bg-left-top h-full rounded-2xl"></div>
+            <div className="bg-[url('./assets/shufflefy_screenshot.jpeg')] flex items-end group bg-scale-sm bg-left-top h-full rounded-2xl">
+              <AnimatedArrow />
+            </div>
             <p className="text-xl mt-2 text-gray-500">Shufflefy</p>
           </a>
 
@@ -62,7 +65,9 @@ function App() {
             target="_blank"
             className="w-full md:w-1/2 h-64 md:h-[inherit] md:aspect-[4/3] mt-10 md:mt-0"
           >
-            <div className="bg-[url('./assets/covid-19-tracker_screenshot.jpeg')] bg-scale bg-left-top h-full rounded-2xl"></div>
+            <div className="bg-[url('./assets/covid-19-tracker_screenshot.jpeg')] flex items-end group bg-scale bg-left-top h-full rounded-2xl">
+              <AnimatedArrow />
+            </div>
             <p className="text-xl mt-2 text-gray-500">Covid-19 Tracker</p>
           </a>
         </div>
