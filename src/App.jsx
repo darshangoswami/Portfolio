@@ -47,8 +47,8 @@ function App() {
             <a href="mailto:goswamd@purdue.edu">Let's work together!</a>
           </Button>
         </div>
-        <h3 className="text-2xl mb-5">Featured Projects:</h3>
-        <div className="flex flex-wrap md:flex-nowrap gap-5 mb-24">
+        <h3 className="text-2xl mb-5">Featured Projects</h3>
+        <div className="flex flex-wrap md:flex-nowrap gap-10 mb-24">
           <a
             href="https://shufflefy.darshangoswami.com/"
             target="_blank"
