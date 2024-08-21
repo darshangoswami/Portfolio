@@ -47,8 +47,8 @@ function App() {
             <a href="mailto:goswamd@purdue.edu">Let's work together!</a>
           </Button>
         </div>
-        <h3 className="text-2xl mb-10">Featured Projects</h3>
-        <div className="flex flex-wrap md:flex-nowrap gap-10 mb-24">
+        <h3 className="text-3xl mb-10">Featured Projects</h3>
+        <div className="flex flex-wrap md:flex-nowrap gap-12 mb-24">
           <a
             href="https://shufflefy.darshangoswami.com/"
             target="_blank"
@@ -63,7 +63,7 @@ function App() {
           <a
             href="https://covid-tracker.darshangoswami.com/"
             target="_blank"
-            className="w-full md:w-1/2 h-64 md:h-[inherit] md:aspect-[4/3] mt-10 md:mt-0"
+            className="w-full md:w-1/2 h-64 md:h-[inherit] md:aspect-[4/3] mt-6 md:mt-0"
           >
             <div className="bg-[url('./assets/covid-19-tracker_screenshot.jpeg')] flex items-end group bg-scale bg-left-top h-full rounded-2xl">
               <AnimatedArrow />
