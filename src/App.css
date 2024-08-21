@@ -3,15 +3,17 @@
   transition: background-size 0.3s ease-in-out;
 }
 
-.bg-scale-sm:hover {
-  background-size: 130%;
-}
-
 .bg-scale {
   background-size: 140%;
   transition: background-size 0.3s ease-in-out;
 }
 
-.bg-scale:hover {
-  background-size: 160%;
+@media screen and (min-width: 768px) {
+  .bg-scale-sm:hover {
+    background-size: 130%;
+  }
+
+  .bg-scale:hover {
+    background-size: 160%;
+  }
 }
