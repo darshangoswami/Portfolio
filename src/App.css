@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 768px) {
   .bg-scale-sm:hover {
-    background-size: 130%;
+    background-size: 120%;
   }
 
   .bg-scale:hover {
