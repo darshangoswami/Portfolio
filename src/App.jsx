@@ -58,7 +58,7 @@ function App() {
             target="_blank"
             className="w-full md:w-1/2 h-64 md:h-[inherit] md:aspect-[4/3]"
           >
-            <div className="bg-[url('./assets/shufflefy_screenshot.jpeg')] flex items-end group bg-scale-sm bg-left-top h-full rounded-2xl">
+            <div className="bg-[url('./assets/shufflefy_screenshot.jpeg')] flex items-end group bg-scale-sm bg-left-top h-full rounded-2xl shadow-md">
               <AnimatedArrow />
             </div>
             <p className="text-xl mt-2 text-gray-600">Shufflefy</p>
@@ -69,7 +69,7 @@ function App() {
             target="_blank"
             className="w-full md:w-1/2 h-64 md:h-[inherit] md:aspect-[4/3] mt-6 md:mt-0"
           >
-            <div className="bg-[url('./assets/covid-19-tracker_screenshot.jpeg')] flex items-end group bg-scale bg-left-top h-full rounded-2xl">
+            <div className="bg-[url('./assets/covid-19-tracker_screenshot.jpeg')] flex items-end group bg-scale bg-left-top h-full rounded-2xl shadow-md">
               <AnimatedArrow />
             </div>
             <p className="text-xl mt-2 text-gray-600">Covid-19 Tracker</p>
@@ -84,7 +84,7 @@ function App() {
               viewBox="0 0 234 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="group-hover:ml-5 transition-all"
+              className="group-hover:ml-5 transition-all duration-300"
             >
               <path
                 d="M233.061 13.0607C233.646 12.4749 233.646 11.5251 233.061 10.9393L223.515 1.3934C222.929 0.807612 221.979 0.807612 221.393 1.3934C220.808 1.97918 220.808 2.92893 221.393 3.51472L229.879 12L221.393 20.4853C220.808 21.0711 220.808 22.0208 221.393 22.6066C221.979 23.1924 222.929 23.1924 223.515 22.6066L233.061 13.0607ZM0 13.5H232V10.5H0L0 13.5Z"
