@@ -4,6 +4,7 @@ import memoji from "./assets/memoji.png";
 import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
 import AnimatedArrow from "./components/AnimatedArrow";
 import { Separator } from "@/components/ui/separator";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 function App() {
   return (
@@ -74,25 +75,27 @@ function App() {
             <p className="text-xl mt-2 text-gray-600">Covid-19 Tracker</p>
           </a>
         </div>
-        <a
-          className="flex flex-col mb-20 group border py-16 px-5 rounded-2xl bg-gradient-to-r from-violet-300 to-pink-200 shadow-md"
-          href=""
-        >
-          <h3 className="text-3xl">More Projects</h3>
-          <svg
-            width="234"
-            height="24"
-            viewBox="0 0 234 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="group-hover:ml-5 transition-all"
-          >
-            <path
-              d="M233.061 13.0607C233.646 12.4749 233.646 11.5251 233.061 10.9393L223.515 1.3934C222.929 0.807612 221.979 0.807612 221.393 1.3934C220.808 1.97918 220.808 2.92893 221.393 3.51472L229.879 12L221.393 20.4853C220.808 21.0711 220.808 22.0208 221.393 22.6066C221.979 23.1924 222.929 23.1924 223.515 22.6066L233.061 13.0607ZM0 13.5H232V10.5H0L0 13.5Z"
-              fill="black"
-            />
-          </svg>
-        </a>
+        <div className="flex items-center justify-between mb-20 border py-10 px-5 rounded-2xl bg-gradient-to-r from-violet-300 to-pink-200 shadow-md">
+          <a href="" className="flex flex-col group">
+            <h3 className="text-3xl">More Projects</h3>
+            <svg
+              width="234"
+              height="24"
+              viewBox="0 0 234 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="group-hover:ml-5 transition-all"
+            >
+              <path
+                d="M233.061 13.0607C233.646 12.4749 233.646 11.5251 233.061 10.9393L223.515 1.3934C222.929 0.807612 221.979 0.807612 221.393 1.3934C220.808 1.97918 220.808 2.92893 221.393 3.51472L229.879 12L221.393 20.4853C220.808 21.0711 220.808 22.0208 221.393 22.6066C221.979 23.1924 222.929 23.1924 223.515 22.6066L233.061 13.0607ZM0 13.5H232V10.5H0L0 13.5Z"
+                fill="black"
+              />
+            </svg>
+          </a>
+          <a href="">
+            <GitHubLogoIcon className="w-24 h-24 text-gray-700" />
+          </a>
+        </div>
       </main>
     </div>
   );
