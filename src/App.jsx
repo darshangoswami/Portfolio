@@ -61,7 +61,7 @@ function App() {
             <div className="bg-[url('./assets/shufflefy_screenshot.jpeg')] flex items-end group bg-scale-sm bg-left-top h-full rounded-2xl shadow-md">
               <AnimatedArrow />
             </div>
-            <p className="text-xl mt-2 text-gray-600">Shufflefy</p>
+            <p className="text-xl mt-2 tracking-wider">Shufflefy</p>
           </a>
 
           <a
@@ -72,7 +72,7 @@ function App() {
             <div className="bg-[url('./assets/covid-19-tracker_screenshot.jpeg')] flex items-end group bg-scale bg-left-top h-full rounded-2xl shadow-md">
               <AnimatedArrow />
             </div>
-            <p className="text-xl mt-2 text-gray-600">Covid-19 Tracker</p>
+            <p className="text-xl mt-2 tracking-wider">Covid-19 Tracker</p>
           </a>
         </div>
         <div className="flex items-center justify-between mb-20 border py-10 px-5 rounded-2xl bg-gradient-to-r from-violet-300 to-pink-200 shadow-md">
