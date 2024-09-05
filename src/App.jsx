@@ -29,10 +29,10 @@ function App() {
       </nav>
       <main className="px-5 md:px-20 lg:px-36">
         <div className="mt-44 mb-36">
-          <h1 className="text-4xl lg:text-[7rem] text-gray-800 font-medium">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-[7rem] text-gray-800 font-medium">
             Hi, I'm Darshan.
           </h1>
-          <h2 className="w-2/5 text-2xl text-gray-400 lg:text-4xl lg:mt-16 flex-wrap">
+          <h2 className="w-5/6 md:w-4/6 lg:w-3/5 xl:w-2/5 text-gray-400 text-2xl md:text-3xl xl:text-4xl mt-5 lg:mt-7 xl:mt-10 flex-wrap">
             I'm a <span className="text-gray-800">Software Engineer</span>, and
             I like to solve problems.
           </h2>
