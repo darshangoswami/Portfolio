@@ -38,15 +38,13 @@ function App() {
           </h2>
           <nav className="flex flex-wrap md:flex-nowrap mt-52">
             <Button asChild variant="link" className="text-md pl-0">
-              <a href="#work">Work</a>
+              <a href="https://github.com/darshangoswami">Github</a>
             </Button>
             <Button asChild variant="link" className="text-md">
-              <a href="#about">About</a>
+              <a href="https://www.linkedin.com/in/darshangoswami/">Linkedin</a>
             </Button>
-            <Button asChild variant="link" className="text-md pr-0">
-              <a href={resume} target="_blank">
-                Resume
-              </a>
+            <Button asChild variant="link" className="text-md">
+              <a href="mailto:goswamd@purdue.edu">Email</a>
             </Button>
           </nav>
         </div>
