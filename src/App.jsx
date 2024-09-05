@@ -10,26 +10,19 @@ function App() {
   return (
     <div>
       <nav className="flex flex-wrap md:flex-nowrap md:justify-between pt-5 mb-5 px-5 md:px-20 lg:px-36 sticky top-0 bg-white">
-        <Button variant="link" className="text-2xl pl-0">
-          Darshan.
+        <Button asChild variant="link" className="text-2xl pl-0">
+          <a href="#">Darshan.</a>
         </Button>
         <div className="mt-0.5">
           <Button asChild variant="link" className="text-md pl-0">
-            <a href="https://github.com/darshangoswami" target="_blank">
-              Github
-            </a>
+            <a href="#work">Work</a>
           </Button>
           <Button asChild variant="link" className="text-md">
-            <a href={resume} target="_blank">
-              Resume
-            </a>
+            <a href="#about">About</a>
           </Button>
           <Button asChild variant="link" className="text-md pr-0">
-            <a
-              href="https://www.linkedin.com/in/darshangoswami/"
-              target="_blank"
-            >
-              Linkedin
+            <a href={resume} target="_blank">
+              Resume
             </a>
           </Button>
         </div>
