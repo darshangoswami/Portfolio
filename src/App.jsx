@@ -50,7 +50,6 @@ function App() {
             </Button>
           </nav>
         </div>
-        <Separator className="mb-14" />
         <h3 className="text-3xl mb-10">Featured Projects</h3>
         <div className="flex flex-wrap md:flex-nowrap gap-12 mb-24">
           <a
