@@ -36,6 +36,19 @@ function App() {
             I'm a <span className="text-gray-800">Software Engineer</span>, and
             I like to solve problems.
           </h2>
+          <nav className="flex flex-wrap md:flex-nowrap mt-52">
+            <Button asChild variant="link" className="text-md pl-0">
+              <a href="#work">Work</a>
+            </Button>
+            <Button asChild variant="link" className="text-md">
+              <a href="#about">About</a>
+            </Button>
+            <Button asChild variant="link" className="text-md pr-0">
+              <a href={resume} target="_blank">
+                Resume
+              </a>
+            </Button>
+          </nav>
         </div>
         <Separator className="mb-14" />
         <h3 className="text-3xl mb-10">Featured Projects</h3>
