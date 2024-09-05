@@ -28,7 +28,7 @@ function App() {
         </div>
       </nav>
       <main className="px-5 md:px-20 lg:px-36">
-        <div className="mt-44 mb-36">
+        <div className="mt-44 mb-28">
           <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-[7rem] text-gray-800 font-medium">
             Hi, I'm Darshan.
           </h1>
@@ -36,16 +36,23 @@ function App() {
             I'm a <span className="text-gray-800">Software Engineer</span>, and
             I like to solve problems.
           </h2>
-          <nav className="flex flex-wrap md:flex-nowrap mt-52">
-            <Button asChild variant="link" className="text-md pl-0">
-              <a href="https://github.com/darshangoswami">Github</a>
-            </Button>
-            <Button asChild variant="link" className="text-md">
-              <a href="https://www.linkedin.com/in/darshangoswami/">Linkedin</a>
-            </Button>
-            <Button asChild variant="link" className="text-md">
-              <a href="mailto:goswamd@purdue.edu">Email</a>
-            </Button>
+          <nav className="flex flex-wrap md:flex-nowrap md:justify-between mt-52">
+            <div>
+              <Button asChild variant="link" className="text-md pl-0">
+                <a href="https://github.com/darshangoswami">Github</a>
+              </Button>
+              <Button asChild variant="link" className="text-md">
+                <a href="https://www.linkedin.com/in/darshangoswami/">
+                  Linkedin
+                </a>
+              </Button>
+              <Button asChild variant="link" className="text-md">
+                <a href="mailto:goswamd@purdue.edu">Email</a>
+              </Button>
+            </div>
+            <p className="py-2 px-4 font-medium hidden md:flex">
+              _ OPEN TO WORK
+            </p>
           </nav>
         </div>
         <h3 className="text-3xl mb-10">Featured Projects</h3>
