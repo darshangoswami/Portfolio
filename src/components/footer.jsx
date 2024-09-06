@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 function footer() {
   return (
-    <div>
+    <div className="mt-32">
       <h3>Get in Touch!</h3>
       <p className="text-3xl text-yellow-500">goswamd@purdue.edu</p>
       <div className="flex flex-col md:flex-row md:justify-between mb-10 mt-32">
