@@ -5,12 +5,11 @@ import { Button } from "./ui/button";
 const SelectedWork = () => {
   return (
     <div className="flex flex-col items-center p-8">
-      <div className="grid md:grid-cols-4 md:grid-rows-4 gap-8">
-        <div className="md:col-span-2 md:row-span-2">
+      <div className="grid md:grid-cols-4 md:gap-32">
+        <div className="md:col-span-2 md:row-span-2 mb-10">
           <img
             src={shufflefyScreenshot}
-            width={400}
-            height={500}
+            className="md:max-w-96"
             alt="Starbucks: otto project"
           />
           <h2 className="text-xl mt-4">Shufflefy</h2>
@@ -23,8 +22,7 @@ const SelectedWork = () => {
         <div className="md:col-start-3 col-span-2 row-start-2 row-span-2">
           <img
             src={covidTrackerScreenshot}
-            width={500}
-            height={300}
+            className="md:max-w-96 lg:max-w-[450px] xl:max-w-[500px]"
             alt="Starbucks: otto project"
           />
           <h2 className="text-xl mt-4">COVID-19 Tracker</h2>
