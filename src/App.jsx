@@ -1,9 +1,7 @@
 import "./App.css";
 import { Button } from "./components/ui/button";
-import memoji from "./assets/memoji.png";
 import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
 import AnimatedArrow from "./components/AnimatedArrow";
-import { Separator } from "@/components/ui/separator";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import Footer from "@/components/footer";
 
