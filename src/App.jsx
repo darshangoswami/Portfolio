@@ -5,6 +5,7 @@ import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
 import AnimatedArrow from "./components/AnimatedArrow";
 import { Separator } from "@/components/ui/separator";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import Footer from "@/components/footer";
 
 function App() {
   return (
@@ -100,6 +101,7 @@ function App() {
             <GitHubLogoIcon className="w-24 h-24 text-gray-700" />
           </a>
         </div>
+        <Footer />
       </main>
     </div>
   );
