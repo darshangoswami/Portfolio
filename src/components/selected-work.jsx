@@ -1,9 +1,10 @@
 import shufflefyScreenshot from "../assets/shufflefy_screenshot.jpeg";
 import covidTrackerScreenshot from "../assets/covid-19-tracker_screenshot.jpeg";
+import { Button } from "./ui/button";
 
 const SelectedWork = () => {
   return (
-    <div className="p-8">
+    <div className="flex flex-col items-center p-8">
       <div className="grid md:grid-cols-4 md:grid-rows-4 gap-8">
         <div className="md:col-span-2 md:row-span-2">
           <img
@@ -34,6 +35,16 @@ const SelectedWork = () => {
           <p className="text-sm text-yellow-600 mt-2">React</p>
         </div>
       </div>
+      <h2 className="text-center text-2xl">
+        My code arhive of all previous
+        <br /> work I've Played, Worked, and <br />
+        Experimented with.
+      </h2>
+      <Button asChild className="mt-5 p-5 rounded-3xl">
+        <a href="https://github.com/darshangoswami" target="_blank">
+          Github Profile
+        </a>
+      </Button>
     </div>
   );
 };
