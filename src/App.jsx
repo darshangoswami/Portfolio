@@ -2,6 +2,7 @@ import "./App.css";
 import { Button } from "./components/ui/button";
 import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
 import SelectedWork from "@/components/selected-work";
+import Footer from "@/components/footer";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
         </div>
         <h3 className="text-center text-3xl mb-10">Selected Work</h3>
         <SelectedWork />
+        <Footer />
       </main>
     </div>
   );
