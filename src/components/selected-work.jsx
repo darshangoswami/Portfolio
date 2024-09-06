@@ -5,12 +5,11 @@ import { Button } from "./ui/button";
 const SelectedWork = () => {
   return (
     <div className="flex flex-col items-center p-8">
-      <div className="grid md:grid-cols-4 md:gap-32">
-        <div className="md:col-span-2 md:row-span-2 mb-10">
+      <div className="md:grid md:grid-flow-col md:grid-cols-4 lg:grid-cols-5 md:gap-12 lg:gap-22 xl:gap-32">
+        <div className="md:col-start-1 md:col-span-2 row-span-2 mb-10">
           <img
             src={shufflefyScreenshot}
-            className="md:max-w-96"
-            alt="Starbucks: otto project"
+            alt="Shufflefy: UI to play Spotify with true shuffle"
           />
           <h2 className="text-xl mt-4">Shufflefy</h2>
           <p className="text-sm text-gray-400">
@@ -19,12 +18,8 @@ const SelectedWork = () => {
           <p className="text-sm text-yellow-600 mt-2">Flask - React</p>
         </div>
 
-        <div className="md:col-start-3 col-span-2 row-start-2 row-span-2">
-          <img
-            src={covidTrackerScreenshot}
-            className="md:max-w-96 lg:max-w-[450px] xl:max-w-[500px]"
-            alt="Starbucks: otto project"
-          />
+        <div className="md:col-start-3 md:col-span-2 lg:col-span-3 row-start-2 row-span-2">
+          <img src={covidTrackerScreenshot} alt="Covid-19 Tracker: Dashboard" />
           <h2 className="text-xl mt-4">COVID-19 Tracker</h2>
           <p className="text-sm text-gray-400">
             A dashboard to get live data on ongoing COVID-19 cases around the
@@ -33,7 +28,7 @@ const SelectedWork = () => {
           <p className="text-sm text-yellow-600 mt-2">React</p>
         </div>
       </div>
-      <h2 className="text-center text-2xl">
+      <h2 className="text-center md:text-2xl mt-20">
         My code arhive of all previous
         <br /> work I've Played, Worked, and <br />
         Experimented with.
