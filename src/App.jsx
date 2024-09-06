@@ -1,6 +1,7 @@
 import "./App.css";
 import { Button } from "./components/ui/button";
 import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
+import SelectedWork from "@/components/selected-work";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           </nav>
         </div>
         <h3 className="text-center text-3xl mb-10">Selected Work</h3>
+        <SelectedWork />
       </main>
     </div>
   );
