@@ -3,35 +3,35 @@ import covidTrackerScreenshot from "../assets/covid-19-tracker_screenshot.jpeg";
 
 const SelectedWork = () => {
   return (
-    <div className="min-h-screen p-8">
+    <div className="p-8">
       <div className="grid md:grid-cols-4 md:grid-rows-4 gap-8">
         <div className="md:col-span-2 md:row-span-2">
           <img
             src={shufflefyScreenshot}
-            width={500}
-            height={400}
+            width={400}
+            height={500}
             alt="Starbucks: otto project"
           />
-          <h2 className="text-xl mt-4">Starbucks: otto</h2>
+          <h2 className="text-xl mt-4">Shufflefy</h2>
           <p className="text-sm text-gray-400">
-            Creating a more humanistic brand into starbucks existing website.
+            A better way to shuffle tracks with Spotify
           </p>
-          <p className="text-sm text-yellow-600 mt-2">Visual design</p>
+          <p className="text-sm text-yellow-600 mt-2">Flask - React</p>
         </div>
 
         <div className="md:col-start-3 col-span-2 row-start-2 row-span-2">
           <img
             src={covidTrackerScreenshot}
             width={500}
-            height={400}
+            height={300}
             alt="Starbucks: otto project"
           />
-          <h2 className="text-xl mt-4">Wishful</h2>
+          <h2 className="text-xl mt-4">COVID-19 Tracker</h2>
           <p className="text-sm text-gray-400">
-            An inspirational wishing wall for the community to view and cast
-            wishes.
+            A dashboard to get live data on ongoing COVID-19 cases around the
+            world.
           </p>
-          <p className="text-sm text-yellow-600 mt-2">UX/UI - Front End Dev</p>
+          <p className="text-sm text-yellow-600 mt-2">React</p>
         </div>
       </div>
     </div>
