@@ -4,10 +4,12 @@ import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
 import SelectedWork from "@/components/selected-work";
 import Footer from "@/components/footer";
 import { Link as ScrollLink } from "react-scroll";
+import { ThemeProvider } from "@/components/theme-provider";
+import { ModeToggle } from "./components/mode-toggle";
 
 function App() {
   return (
-    <div>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <nav className="flex flex-wrap md:flex-nowrap md:justify-between pt-5 mb-5 px-5 md:px-20 lg:px-36 sticky top-0 bg-white">
         <Button asChild variant="link" className="text-2xl pl-0">
           <ScrollLink to="top" smooth={true} duration={500} offset={-250}>
@@ -28,6 +30,7 @@ function App() {
               Resume
             </a>
           </Button>
+          <ModeToggle />
         </div>
       </nav>
       <main className="px-5 md:px-20 lg:px-36" id="top">
@@ -64,7 +67,7 @@ function App() {
         <SelectedWork />
         <Footer />
       </main>
-    </div>
+    </ThemeProvider>
   );
 }
 
