@@ -3,17 +3,22 @@ import { Button } from "./components/ui/button";
 import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
 import SelectedWork from "@/components/selected-work";
 import Footer from "@/components/footer";
+import { Link as ScrollLink } from "react-scroll";
 
 function App() {
   return (
     <div>
       <nav className="flex flex-wrap md:flex-nowrap md:justify-between pt-5 mb-5 px-5 md:px-20 lg:px-36 sticky top-0 bg-white">
         <Button asChild variant="link" className="text-2xl pl-0">
-          <a href="#">Darshan.</a>
+          <ScrollLink to="top" smooth={true} duration={500} offset={-250}>
+            Darshan.
+          </ScrollLink>
         </Button>
         <div className="mt-0.5">
           <Button asChild variant="link" className="text-md pl-0">
-            <a href="#work">Work</a>
+            <ScrollLink to="work" smooth={true} duration={500} offset={-60}>
+              Work
+            </ScrollLink>
           </Button>
           <Button asChild variant="link" className="text-md">
             <a href="#about">About</a>
@@ -25,7 +30,7 @@ function App() {
           </Button>
         </div>
       </nav>
-      <main className="px-5 md:px-20 lg:px-36">
+      <main className="px-5 md:px-20 lg:px-36" id="top">
         <div className="mt-44 mb-28">
           <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-[7rem] text-gray-800 font-medium">
             Hi, I'm Darshan.
@@ -53,7 +58,9 @@ function App() {
             </p>
           </nav>
         </div>
-        <h3 className="text-center text-3xl mb-10">Selected Work</h3>
+        <h3 className="text-center text-3xl mb-10" id="work">
+          Selected Work
+        </h3>
         <SelectedWork />
         <Footer />
       </main>
