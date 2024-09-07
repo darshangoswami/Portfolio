@@ -36,7 +36,7 @@ const SelectedWork = () => {
           <p className="text-sm text-yellow-600 mt-2">React</p>
         </div>
       </div>
-      <h2 className="text-center md:text-2xl mt-20">
+      <h2 className="space-mono-regular text-center md:text-2xl mt-20">
         My code arhive of all previous
         <br /> work I've Played, Worked, and <br />
         Experimented with.
