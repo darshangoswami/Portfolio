@@ -10,7 +10,7 @@ import { ModeToggle } from "./components/mode-toggle";
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <nav className="flex flex-wrap md:flex-nowrap md:justify-between pt-5 mb-5 px-5 md:px-20 lg:px-36 sticky top-0 light:bg-white dark:bg-black">
+      <nav className="flex flex-wrap md:flex-nowrap md:justify-between pt-5 mb-5 px-5 md:px-20 lg:px-36 sticky top-0 light:bg-white dark:bg-background">
         <Button asChild variant="link" className="text-2xl pl-0">
           <ScrollLink to="top" smooth={true} duration={500} offset={-250}>
             Darshan.
