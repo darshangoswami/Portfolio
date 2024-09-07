@@ -23,9 +23,6 @@ function App() {
             </ScrollLink>
           </Button>
           <Button asChild variant="link" className="text-md">
-            <a href="#about">About</a>
-          </Button>
-          <Button asChild variant="link" className="text-md">
             <a href={resume} target="_blank">
               Resume
             </a>

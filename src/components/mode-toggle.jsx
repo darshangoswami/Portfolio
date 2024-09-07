@@ -9,8 +9,8 @@ export function ModeToggle() {
   };
 
   return (
-    <Button variant="link" onClick={toggleTheme}>
-      {theme === "dark" ? "Light mode" : "Dark mode"}
+    <Button variant="ghost" onClick={toggleTheme} className="text-2xl">
+      {theme === "dark" ? "☀️" : "🌙"}
     </Button>
   );
 }
