@@ -25,7 +25,7 @@ function App() {
           <Button asChild variant="link" className="text-md">
             <a href="#about">About</a>
           </Button>
-          <Button asChild variant="link" className="text-md pr-0">
+          <Button asChild variant="link" className="text-md">
             <a href={resume} target="_blank">
               Resume
             </a>
