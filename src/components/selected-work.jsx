@@ -37,7 +37,7 @@ const SelectedWork = () => {
         </div>
       </div>
       <h2 className="space-mono-regular text-center md:text-2xl mt-20 tracking-tighter">
-        My code arhive of all previous
+        My code archive of all previous
         <br /> work I've Played, Worked, and <br />
         Experimented with.
       </h2>
