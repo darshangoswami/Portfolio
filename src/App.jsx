@@ -1,6 +1,6 @@
 import "./App.css";
 import { Button } from "./components/ui/button";
-import resume from "./assets/darshanGoswami_SWE_Resume.pdf";
+import resume from "./assets/Darshan_Goswami_Resume.pdf";
 import SelectedWork from "@/components/selected-work";
 import Footer from "@/components/footer";
 import { Link as ScrollLink } from "react-scroll";
